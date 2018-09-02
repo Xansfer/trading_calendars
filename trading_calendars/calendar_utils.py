@@ -10,6 +10,7 @@ from trading_calendars.exchange_calendar_cme import CMEExchangeCalendar
 from trading_calendars.exchange_calendar_bmf import BMFExchangeCalendar
 from trading_calendars.exchange_calendar_lse import LSEExchangeCalendar
 from trading_calendars.exchange_calendar_tsx import TSXExchangeCalendar
+from trading_calendars.exchange_calendar_tfs import TFSExchangeCalendar
 from trading_calendars.us_futures_calendar import (
     QuantopianUSFuturesCalendar,
 )
@@ -22,6 +23,7 @@ _default_calendar_factories = {
     'BMF': BMFExchangeCalendar,
     'LSE': LSEExchangeCalendar,
     'TSX': TSXExchangeCalendar,
+    'TFS': TFSExchangeCalendar,
     'us_futures': QuantopianUSFuturesCalendar,
 }
 _default_calendar_aliases = {
