@@ -8,7 +8,7 @@ from pandas.tseries.offsets import CustomBusinessDay
 from pytz import timezone
 
 # for creating and registering our calendar
-from .trading_calendar.calendars import (
+from .trading_calendar import (
   TradingCalendar
 )
 from zipline.utils.memoize import lazyval
